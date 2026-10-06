@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+
+body {
+
+    font-family: 'Press Start 2P', monospace;
+
+    background-color: #f7d9e3;
+
+    background-image:
+        linear-gradient(#efc5d2 2px, transparent 2px),
+        linear-gradient(90deg, #efc5d2 2px, transparent 2px);
+
+    background-size: 32px 32px;
+
+    color: #493449;
+}

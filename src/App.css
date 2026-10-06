@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.app {
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+.main-title {
+
+    font-size: 22px;
+
+    color: #d45d79;
+
+    margin-bottom: 35px;
+
+    text-shadow:
+        4px 4px 0 #493449;
+}
+
+
+/* ================================= */
+/* CONTAINER */
+/* ================================= */
+
+.form-container {
+
+    display: flex;
+
+    gap: 35px;
+
+    align-items: flex-start;
+
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+/* ================================= */
+/* CARDS */
+/* ================================= */
+
+.form-card,
+.preview-card {
+
+    width: 360px;
+
+    padding: 25px;
+
+    background-color: #fff3d6;
+
+    border: 6px solid #493449;
+
+    box-shadow:
+        8px 8px 0 #493449,
+        14px 14px 0 #c58aa0;
+}
+
+
+/* ================================= */
+/* HEADER */
+/* ================================= */
+
+.card-header {
+
+    text-align: center;
+
+    font-size: 9px;
+
+    color: #d45d79;
+
+    margin-bottom: 25px;
+}
+
+
+/* ================================= */
+/* FORM */
+/* ================================= */
+
+.form-card label {
+
+    display: block;
+
+    font-size: 8px;
+
+    color: #745267;
+
+    margin-bottom: 8px;
+
+    margin-top: 15px;
+}
+
+
+.form-card input,
+.form-card select,
+.form-card textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    font-family: 'Press Start 2P', monospace;
+
+    font-size: 9px;
+
+    color: #493449;
+
+    background-color: #fffaf0;
+
+    border: 4px solid #493449;
+
+    outline: none;
+}
+
+
+.form-card input:focus,
+.form-card select:focus,
+.form-card textarea:focus {
+
+    background-color: #fff0f5;
+
+    box-shadow: 4px 4px 0 #d45d79;
+}
+
+
+.form-card textarea {
+
+    height: 100px;
+
+    resize: none;
+
+    line-height: 1.7;
+}
+
+
+/* ================================= */
+/* PREVIEW */
+/* ================================= */
+
+.preview-card {
+
+    text-align: center;
+}
+
+
+/* AVATAR */
+
+.avatar {
+
+    width: 100px;
+    height: 100px;
+
+    margin: 10px auto 20px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #b8d8b0;
+
+    border: 6px solid #493449;
+
+    font-size: 35px;
+
+    color: #31452f;
+}
+
+
+/* NAME */
+
+.preview-card h2 {
+
+    font-size: 16px;
+
+    color: #493449;
+
+    margin-bottom: 15px;
+}
+
+
+/* EMAIL */
+
+.email {
+
+    font-size: 8px;
+
+    color: #9a7184;
+
+    margin-bottom: 18px;
+
+    word-break: break-word;
+}
+
+
+/* COURSE */
+
+.course {
+
+    display: inline-block;
+
+    padding: 10px 14px;
+
+    margin-bottom: 20px;
+
+    font-size: 8px;
+
+    color: #31452f;
+
+    background-color: #b8d8b0;
+
+    border: 4px solid #493449;
+}
+
+
+/* MESSAGE */
+
+.message {
+
+    min-height: 80px;
+
+    padding: 15px;
+
+    font-size: 8px;
+
+    line-height: 1.8;
+
+    color: #745267;
+
+    background-color: #fffaf0;
+
+    border: 4px dashed #c58aa0;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================================= */
+/* FOOTER */
+/* ================================= */
+
+.card-footer {
+
+    padding-top: 15px;
+
+    border-top: 3px dashed #c58aa0;
+
+    font-size: 7px;
+
+    color: #9a7184;
+}
+
+
+/* ================================= */
+/* RESPONSIVE */
+/* ================================= */
+
+@media (max-width: 800px) {
+
+    .form-container {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .main-title {
+
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .form-card,
+    .preview-card {
+
+        width: 95%;
+
+        padding: 20px;
+    }
+
+}
